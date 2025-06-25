@@ -1,3 +1,5 @@
 # Conclusão
 
-Apresente as principais conclusões, dificuldades enfrentadas, próximos passos e sugestões.
+A NexFut representa uma solução inovadora e socialmente transformadora para o cenário do futebol brasileiro. Ao conectar jovens talentos de comunidades de baixa renda com olheiros e clubes por meio de uma plataforma digital inteligente, a iniciativa promove inclusão, democratiza o acesso a oportunidades e potencializa carreiras promissoras. 
+Com funcionalidades que combinam tecnologia, gamificação e análise técnica, a NexFut não apenas facilita a descoberta de novos talentos, mas também fortalece projetos sociais e profissionais da área esportiva. 
+Assim, o projeto tem grande potencial de impacto social e esportivo, ao mesmo tempo em que se estabelece como um modelo de negócio escalável e sustentável.
