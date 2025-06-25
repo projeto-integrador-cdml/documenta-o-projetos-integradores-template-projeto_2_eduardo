@@ -1,6 +1,7 @@
 Introdução
 ⚽ Contexto
-O futebol desempenha um papel social e cultural fundamental no Brasil, representando não apenas um esporte popular, mas também uma possibilidade concreta de ascensão social para milhares de jovens. Desde cedo, crianças e adolescentes demonstram talento e dedicação em campos improvisados, quadras escolares ou projetos comunitários. No entanto, embora o país seja historicamente reconhecido como celeiro de grandes jogadores, ainda existe uma lacuna expressiva entre o talento bruto presente nas periferias e o acesso efetivo às estruturas formais do futebol profissional.
+O futebol desempenha um papel social e cultural fundamental no Brasil, representando não apenas um esporte popular, mas também uma possibilidade concreta de ascensão social para milhares de jovens. 
+Desde cedo, crianças e adolescentes demonstram talento e dedicação em campos improvisados, quadras escolares ou projetos comunitários. No entanto, embora o país seja historicamente reconhecido como celeiro de grandes jogadores, ainda existe uma lacuna expressiva entre o talento bruto presente nas periferias e o acesso efetivo às estruturas formais do futebol profissional.
 Ao mesmo tempo, o mercado esportivo tem evoluído de forma significativa. Clubes, empresários e olheiros estão cada vez mais em busca de processos mais técnicos, objetivos e padronizados de captação e avaliação de atletas. Ferramentas digitais, inteligência artificial e análise de dados têm se tornado centrais na gestão esportiva moderna, desde o desempenho em campo até a prospecção de novos talentos.
 É nesse contexto que surge o projeto NexFut: uma iniciativa acadêmica e tecnológica que busca unir ciência de dados e inclusão social por meio do futebol.
 
