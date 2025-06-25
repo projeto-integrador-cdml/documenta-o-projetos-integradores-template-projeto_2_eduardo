@@ -13,7 +13,7 @@ Apesar do grande número de jovens com potencial esportivo, muitos deles enfrent
 - Baixa digitalização do processo de scouting: olheiros e técnicos ainda recorrem a métodos manuais e pouco escaláveis para identificar novos talentos.
 Além disso, projetos sociais e escolas de futebol frequentemente carecem de meios tecnológicos para acompanhar e divulgar o desempenho de seus atletas. Com isso, a distância entre talento e oportunidade se amplia, comprometendo não apenas carreiras em potencial, mas também o desenvolvimento do esporte nacional.
 
-🎯 Objetivos Gerais
+🎯 Objetivos Gerais:
 O projeto NexFut tem como missão central criar uma ponte entre atletas jovens e oportunidades reais no futebol profissional, por meio de uma plataforma digital baseada em dados. Os objetivos do sistema são:
 - Desenvolver uma ferramenta que permita o cadastro estruturado de atletas, incluindo dados pessoais, posição em campo, vídeos e histórico esportivo;
 - Oferecer análises técnicas automatizadas a partir de vídeos enviados, utilizando técnicas de visão computacional e inteligência artificial;
