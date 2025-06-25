@@ -4,8 +4,14 @@ Explique como o projeto foi desenvolvido: metodologia ágil utilizada, etapas de
 
 ## Tecnologias e Ferramentas
 
-- RAG com LlamaIndex e OpenAI
-- Orquestração com N8N
-- Frontend em React, Backend em FastAPI
-- Base vetorizada em FAISS
-- GitHub Actions para CI/CD
+A NexFut utiliza um ecossistema moderno de tecnologias para garantir escalabilidade, desempenho e inteligência nos serviços oferecidos:
+    • Backend: FastAPI (Python) com arquitetura RESTful e documentação Swagger;
+    • Frontend: React.js com componente SPA e uso de TailwindCSS para design responsivo;
+    • Banco de dados relacional: PostgreSQL, estruturado para autenticação e perfis de usuários;
+    • Banco não relacional: MongoDB para armazenamento de relatórios, metadados e logs de desempenho;
+    • Armazenamento de vídeos: Firebase Cloud Storage e AWS S3;
+    • Processamento de vídeo: OpenCV + MediaPipe para extração de eventos e movimentos relevantes;
+    • Vetorizador semântico: FAISS para similaridade entre perfis de atletas;
+    • RAG: LlamaIndex integrado com OpenAI para análise textual e recomendações automatizadas;
+    • Automação: N8N para orquestração de fluxos e tarefas;
+    • CI/CD: GitHub Actions com pipeline de deploy automatizado.
