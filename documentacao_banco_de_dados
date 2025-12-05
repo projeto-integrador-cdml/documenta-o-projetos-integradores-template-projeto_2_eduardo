@@ -1,0 +1,50 @@
+  # Documentação da Base de Dados 
+
+    Origem dos Dados
+Para a construção e validação das funcionalidades da plataforma NexFut, foi utilizada uma base de dados derivada do repositório colaborativo SoccerWiki,além de outras fontes como o oGol e o Transfermarkt, que trazem informações ricas sobre clubes, jogadores, competições e estruturas técnicas do futebol.
+Os dados foram convertidos e estruturados em arquivos CSV, facilitando a manipulação e análise estatística no contexto da plataforma.
+
+A base de dados contém um conjunto de informações sobre o universo do futebol profissional, contendo jogadores, clubes, ligas, copas, estádios, treinadores e seleções.
+Os dados estão organizados em múltiplos arquivos CSV separados.
+As principais tabelas são:  
+
+  -  PlayerData: Contém informações detalhadas sobre jogadores de futebol, como identificador único do jogador, nome completo, data de nascimento, nacionalidade, posição (ex: goleiro, zagueiro...)
+e referência ao clube atual.
+    
+  -  ClubData: Reúne dados sobre clubes de futebol, como identificador do clube, nome oficial, país de origem e referência ao estádio associado.
+
+  -  LeagueData: Contém registros de ligas nacionais, incluindo identificador da liga, nome da competição e país em que é disputada.
+
+  -  CupData: Traz informações sobre copas nacionais e internacionais, como identificador da copa, nome da competição e região geográfica de abrangência (ex: Europa, América do Sul).
+
+  - StadiumData: Inclui dados de estádios de futebol, como identificador do estádio, nome, capacidade de público e cidade onde está localizado.
+
+  - ManagerData: Apresenta informações sobre treinadores, como identificador, nome completo e nacionalidade.
+
+  - InternationalData: Contém dados de seleções nacionais, como nome, país representado e outros atributos relacionados.
+
+  - InternationalCupData: Lista competições internacionais entre seleções, com nome da competição, região e identificador.
+
+  - PlayerImages: Contém referências visuais dos jogadores, associando identificadores a URLs de imagens.
+
+  A base de dados é extremamente valiosa para o projeto NexFut por diversas razões:
+
+Análise Comparativa: Permite comparar jogadores de diferentes clubes, países e posições com base em seus atributos e histórico de atuação.
+
+Mapeamento de Oportunidades: Ajuda na identificação de regiões sub-representadas no futebol profissional, o que é alinhado com o objetivo de inclusão social da plataforma.
+
+Treinamento de Modelos Preditivos: A riqueza de atributos dos jogadores e técnicos possibilita a aplicação de machine learning para prever desempenho ou sugerir combinações ideais de equipe.
+
+Aprimoramento da Busca de Talentos: Utilizando filtros e embeddings vetoriais, os dados permitem recomendar atletas com perfis semelhantes aos já bem-sucedidos no mercado.
+
+Base para Validação de Métricas: A plataforma pode usar a base como benchmark para validar estatísticas inseridas pelos usuários (ex: altura média por posição, idade média por liga, etc.).
+  
+ Concluindo:
+A utilização dessa base estruturada e confiável permite à NexFut alinhar-se ao modelo de data-driven scouting, tão valorizado no futebol atual. 
+Ela contribui não apenas para aumentar a assertividade na escolha de atletas, mas também para dar visibilidade a talentos.
+
+    
+  
+    
+
+  

@@ -1,3 +1,24 @@
-# Introdução
+Introdução
+⚽ Contexto
+O futebol desempenha um papel social e cultural fundamental no Brasil, representando não apenas um esporte popular, mas também uma possibilidade concreta de ascensão social para milhares de jovens. 
+Desde cedo, crianças e adolescentes demonstram talento e dedicação em campos improvisados, quadras escolares ou projetos comunitários. No entanto, embora o país seja historicamente reconhecido como celeiro de grandes jogadores, ainda existe uma lacuna expressiva entre o talento bruto presente nas periferias e o acesso efetivo às estruturas formais do futebol profissional.
+Ao mesmo tempo, o mercado esportivo tem evoluído de forma significativa. Clubes, empresários e olheiros estão cada vez mais em busca de processos mais técnicos, objetivos e padronizados de captação e avaliação de atletas. Ferramentas digitais, inteligência artificial e análise de dados têm se tornado centrais na gestão esportiva moderna, desde o desempenho em campo até a prospecção de novos talentos.
+É nesse contexto que surge o projeto NexFut: uma iniciativa acadêmica e tecnológica que busca unir ciência de dados e inclusão social por meio do futebol.
 
-Descreva o contexto, o problema que o projeto pretende resolver e os objetivos gerais.
+❗ Problema
+Apesar do grande número de jovens com potencial esportivo, muitos deles enfrentam barreiras significativas para serem descobertos. Entre os principais obstáculos estão:
+- Falta de visibilidade: atletas promissores não possuem meios estruturados para exibir suas habilidades a olheiros e clubes;
+- Ausência de dados objetivos: a avaliação de jovens talentos ainda depende, muitas vezes, da percepção subjetiva de treinadores e agentes;
+- Desigualdade regional e social: há uma concentração de oportunidades em centros urbanos, enquanto regiões periféricas e comunidades de baixa renda permanecem à margem do radar esportivo;
+- Baixa digitalização do processo de scouting: olheiros e técnicos ainda recorrem a métodos manuais e pouco escaláveis para identificar novos talentos.
+Além disso, projetos sociais e escolas de futebol frequentemente carecem de meios tecnológicos para acompanhar e divulgar o desempenho de seus atletas. Com isso, a distância entre talento e oportunidade se amplia, comprometendo não apenas carreiras em potencial, mas também o desenvolvimento do esporte nacional.
+
+🎯 Objetivos Gerais:
+O projeto NexFut tem como missão central criar uma ponte entre atletas jovens e oportunidades reais no futebol profissional, por meio de uma plataforma digital baseada em dados. Os objetivos do sistema são:
+- Desenvolver uma ferramenta que permita o cadastro estruturado de atletas, incluindo dados pessoais, posição em campo, vídeos e histórico esportivo;
+- Oferecer análises técnicas automatizadas a partir de vídeos enviados, utilizando técnicas de visão computacional e inteligência artificial;
+- Viabilizar a busca inteligente por parte de olheiros e agentes, permitindo filtros por critérios como idade, região, desempenho e estatísticas técnicas;
+- Promover a inclusão social por meio do esporte, democratizando o acesso a processos seletivos, peneiras e convocações;
+- Criar uma base de dados robusta e confiável, servindo como referência para clubes, projetos sociais e instituições esportivas interessadas na captação de talentos.
+
+Dessa forma, o NexFut se propõe a transformar um processo historicamente informal, limitado e excludente em uma experiência digital, acessível e meritocrática, aproximando o futuro do futebol das ferramentas do presente.
