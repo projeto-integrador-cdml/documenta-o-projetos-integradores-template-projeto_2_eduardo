@@ -43,3 +43,31 @@ Será adicionado um arquivo `.github/workflows/render.yml` para gerar o PDF auto
 ## 👨‍🏫 Suporte
 
 Em caso de dúvidas, consulte os materiais no Moodle ou entre em contato com o professor responsável.
+
+# Conteúdo Técnico Adicionado — Relatório de Captação
+
+A nova etapa do projeto incorpora uma análise completa dos jogadores captados no DF, com os seguintes indicadores técnicos: 
+relatorio_captacao_df
+
+## 📊 Distribuição dos atletas
+
+Idade predominante entre 12 e 14 anos, o que representa a fase mais fértil de evolução técnica e cognitiva.
+
+Altura entre 138–170 cm, média aproximada de 155 cm — diversidade física preservada.
+
+Posição com maior volume: meias e atacantes; goleiros minoria.
+
+## 🌍 Distribuição geográfica
+
+Regiões com maior captação:
+
+Gama, Ceilândia, Samambaia, Taguatinga, Plano Piloto
+
+Regiões pouco representadas → oportunidades de expansão futura.
+
+## ⚽ Indicadores de performance avaliados
+Métrica	Descrição
+Passes decisivos por idade	13–14 anos apresentam maior criação ofensiva
+Recuperações x disputas vencidas	Correlação positiva forte (perfil defensivo completo)
+Ranking de dribles certos	Identifica jogadores com maior poder de desequilíbrio
+Radares por posição	Perﬁs e estilos distintos entre atacantes, meias e defensores
