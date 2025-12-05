@@ -71,3 +71,19 @@ Passes decisivos por idade	13–14 anos apresentam maior criação ofensiva
 Recuperações x disputas vencidas	Correlação positiva forte (perfil defensivo completo)
 Ranking de dribles certos	Identifica jogadores com maior poder de desequilíbrio
 Radares por posição	Perﬁs e estilos distintos entre atacantes, meias e defensores
+
+## 📂 Base de Dados Utilizada — Captação nas Escolas (CSV)
+
+Esta base contém os dados originais utilizados para gerar os gráficos e análises estatísticas apresentadas no Relatório de Captação, incluindo informações físicas, regionais e de desempenho tático-técnico.
+
+Variável	Descrição
+idade	Faixa etária dos atletas avaliados
+altura	Estatura em cm — variando entre 138–170 cm
+posicao	Função exercida em campo (defensor, meia, atacante, goleiro)
+pe_dom	Pé dominante do atleta (destro/canhoto)
+regiao	Cidade/área de origem no DF
+passes_decisivos	Média de criação ofensiva por idade
+disputas_vencidas	Indicador de combatividade e duelos individuais
+recuperacoes	Relação com a eficiência defensiva e pressão/coleta
+dribles_certos	Métrica de desequilíbrio ofensivo 1x1
+...	Demais atributos complementares analisáveis
