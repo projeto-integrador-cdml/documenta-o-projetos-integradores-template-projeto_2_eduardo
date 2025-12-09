@@ -1,48 +1,118 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/vZ6sAE2k)
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=19764307)
+# Projeto 1 – Eduardo | Plataforma NexFut
 
-# Projeto Integrador III - Template Quarto
+Plataforma de Recrutamento e Inclusão no Futebol
 
-Este repositório é um modelo de documentação para o Projeto Integrador III dos cursos de Ciência de Dados e Machine Learning do CEUB. Ele está formatado segundo as normas da ABNT e estruturado com o sistema Quarto.
+---
+## Definição do Problema
 
-## 📄 Estrutura
+Existe uma grande quantidade de jovens talentos no futebol que não têm acesso a oportunidades para mostrar seu potencial, especialmente em comunidades de baixa renda. Ao mesmo tempo, olheiros enfrentam dificuldades para localizar e avaliar esses atletas com precisão e agilidade.
 
-- `index.qmd`: introdução geral
-- `01-introducao.qmd`: contexto e objetivos
-- `02-metodologia.qmd`: tecnologias, ferramentas e processos
-- `03-desenvolvimento.qmd`: arquitetura, código e decisões
-- `04-resultados.qmd`: imagens, gráficos, resultados
-- `05-conclusao.qmd`: aprendizados e próximos passos
-- `referencias.qmd`: lista de referências (com suporte `.bib`)
-- `refs.bib`: arquivo BibTeX para citações
-- `contracapa.tex`: contracapa em LaTeX para ABNT
-- `imagens/`: coloque aqui capturas de tela e diagramas
-- `_quarto.yml`: configurações do projeto
+A NexFut surge como uma solução digital que conecta esses dois mundos, permitindo que atletas se cadastrem, compartilhem seus dados e vídeos, e recebam análises automatizadas de desempenho. Assim, olheiros poderão filtrar, acompanhar e selecionar jogadores com base em informações relevantes e objetivas.
 
-## 🚀 Como Usar
+---
 
-### Localmente (RStudio ou terminal)
+## Público-Alvo
 
-1. Instale o Quarto: https://quarto.org/docs/get-started/
-2. Certifique-se de que você possui LaTeX instalado (ex: [TinyTeX](https://yihui.org/tinytex/))
-3. No terminal, rode:
+- Jovens atletas de baixa renda, com interesse em ingressar no futebol profissional  
+- Escolas de futebol e projetos sociais  
+- Olheiros, agentes e clubes em busca de novos talentos  
+- Técnicos e profissionais da área esportiva
 
-```bash
-quarto render
-```
+---
 
-### Alternativa com GitHub Actions (renderização automática - opcional)
+## Objetivos de Negócio
 
-Será adicionado um arquivo `.github/workflows/render.yml` para gerar o PDF automaticamente a cada commit.
+- Promover a inclusão social através do esporte  
+- Reduzir a distância entre talentos emergentes e oportunidades profissionais  
+- Criar um ecossistema digital eficiente para captação de atletas  
+- Oferecer uma base de dados rica e acessível para análise técnica de desempenho  
+- Gerar valor para os clubes e olheiros por meio de decisões mais assertivas
 
-## 📌 Regras
+---
 
-- Documentação é obrigatória e será avaliada com base na completude e clareza.
-- O código deve estar hospedado em repositório GitHub e ser referenciado neste relatório.
+## Funcionalidades da Plataforma NexFut
 
-## 👨‍🏫 Suporte
+1. **Cadastro e Perfil do Atleta**  
+   - Dados pessoais e posição em campo  
+   - Upload de vídeos de jogos ou treinos  
+   - Histórico esportivo e estatísticas  
 
-Em caso de dúvidas, consulte os materiais no Moodle ou entre em contato com o professor responsável.
+2. **Avaliação Técnica Automatizada**  
+   - Análise de vídeos com uso de IA (movimentação, passes, finalizações etc.)  
+   - Feedbacks personalizados com sugestões de melhorias  
+
+3. **Painel para Olheiros**  
+   - Filtros por idade, posição, região, desempenho técnico  
+   - Visualização de vídeos e gráficos de desempenho  
+   - Contato direto com o atleta ou seu responsável  
+
+4. **Área de Projetos Sociais**  
+   - Espaço para instituições cadastrarem atletas  
+   - Rankings locais por comunidade ou escola  
+
+5. **Gamificação e Incentivos**  
+   - Pontuação por participação em desafios  
+   - Selos de destaque (ex: “melhor jogador do mês”)  
+   - Ranking nacional e regional  
+
+6. **Notificações e Oportunidades**  
+   - Alertas sobre peneiras, seletivas e campeonatos abertos  
+   - Mensagens de interesse enviadas por olheiros ou clubes  
+
+---
+
+## Tecnologias Sugeridas
+
+- Backend: Node.js ou Python (Django/Flask)  
+- Banco de dados: MongoDB ou PostgreSQL  
+- Frontend: React ou Next.js  
+- Armazenamento de vídeos: AWS S3 ou Firebase Storage  
+- Análise de vídeo: OpenCV + TensorFlow / MediaPipe  
+- Autenticação: OAuth ou Firebase Auth  
+- Hospedagem: Vercel, Heroku ou AWS
+
+---
+
+## Fluxo Básico de Uso
+
+1. O atleta se cadastra e envia seus dados e vídeos  
+2. A NexFut processa e analisa os dados  
+3. Os olheiros visualizam os perfis e avaliam os atletas  
+4. Em caso de interesse, o olheiro entra em contato para uma seletiva  
+5. A plataforma registra a evolução do atleta ao longo do tempo
+
+---
+
+## Indicadores de Sucesso
+
+- Número de atletas cadastrados  
+- Número de olheiros ativos  
+- Conexões bem-sucedidas (ex: convocações, testes)  
+- Crescimento em regiões periféricas  
+- Aumento de visibilidade para projetos sociais parceiros
+
+
+## Simulação e Análises de Dados
+
+Utilizamos dados fictícios (em formato `.csv`) contendo informações simuladas de jogadores, clubes, torneios e ligas. Esses dados foram usados para produzir análises como:
+
+- Evolução de cadastros mensais de atletas
+- Distribuição percentual de jogadores por país (gráfico em pizza)
+
+As análises estão documentadas no relatório final entregue em `.Rmd` e `.html`.
+
+---
+
+## Papéis na Equipe
+
+- **Matheus Lira** – Criação do relatório em RMarkdown, geração de gráficos.
+- **Eduardo Hirle** – Desenvolvimento da estrutura do repositório, descrição funcional da plataforma, documentação.
+- **Camila Niederauer** - Documentação da base de dados.
+- **Pedro Aragão Dorneles** - Incremento na documentação do projeto.
+- **Manuela Raupp** - Apoio na documentação.
+- **Arthur Rocha** - Conclusão.
+- **Gabriel Poppi** - Tecnologia e ferramentas.
+
 
 # Conteúdo Técnico Adicionado — Relatório de Captação
 
@@ -83,6 +153,10 @@ posicao	Função exercida em campo (defensor, meia, atacante, goleiro)
 pe_dom	Pé dominante do atleta (destro/canhoto)
 regiao	Cidade/área de origem no DF
 passes_decisivos	Média de criação ofensiva por idade
+disputas_vencidas	Indicador de combatividade e duelos individuais
+recuperacoes	Relação com a eficiência defensiva e pressão/coleta
+dribles_certos	Métrica de desequilíbrio ofensivo 1x1
+...	Demais atributos complementares analisáveis
 disputas_vencidas	Indicador de combatividade e duelos individuais
 recuperacoes	Relação com a eficiência defensiva e pressão/coleta
 dribles_certos	Métrica de desequilíbrio ofensivo 1x1
